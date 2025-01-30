@@ -15,7 +15,7 @@ namespace atividade
 			if (numero1 > numero2) {
 				Console.WriteLine("O primeiro número é maior");
 		} else { 
-			Console.WriteLine("O primeiro número é menor");
+			Console.WriteLine("O primeiro número não é maior que o segundo");
 			}
 			Console.Write("Press any key to continue . . . ");
 			Console.ReadKey(true);
