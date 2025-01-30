@@ -1,0 +1,26 @@
+// PROGRAMA QUE PEDE AO USUÁRIO PARA DIGITAR UM NÚMERO INTEIRO E EXIBA SE ELE É PAR OU ÍMPAR
+
+using System;
+
+namespace ATV3
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			Console.WriteLine("Insira um número: ");
+			int numero = Convert.ToInt32(Console.ReadLine());
+			int resto = numero % 2;
+			
+			if (resto == 0) {
+				Console.WriteLine("O número é PAR");
+			} else {
+				Console.WriteLine("O número é ÍMPAR");
+			}
+		
+			
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
