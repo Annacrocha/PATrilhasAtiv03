@@ -1,0 +1,33 @@
+// PROGRAMA QUE EXIBE SE O PRIMEIRO NÚMERO É MENOR QUE O SEGUNDO E MAIOR QUE O TERCEIRO  NÚMERO
+
+using System;
+
+namespace atividade
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			Console.WriteLine("Números Iguais");
+			Console.WriteLine("Digite o primeiro número:");
+			int numero1 = Convert.ToInt32(Console.ReadLine());
+			Console.WriteLine("Digite o segundo número: ");
+			int numero2 = Convert.ToInt32(Console.ReadLine());
+			Console.WriteLine("Digite o terceiro número: ");
+			int numero3 = Convert.ToInt32(Console.ReadLine());
+			
+			if (numero1 < numero2) {
+				Console.WriteLine("O primeiro número é menor que o segundo número");
+			} else {
+				Console.WriteLine("O primeiro número não é menor que o segundo");
+			}
+				if ( numero1 > numero3) {
+				Console.WriteLine("O primeiro número é  maior que o terceiro número");
+			} else {
+				Console.WriteLine("O primeiro número é menor que o segundo");
+			}
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
