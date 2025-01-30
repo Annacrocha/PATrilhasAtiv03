@@ -1,0 +1,12 @@
+// PROGRAMA QUE PEDE AO USUÁRIO PARA DIGITAR DOIS NÚMEROS DE PONTO FLUTUANTE E EXIBE SE O PRIMEIRO NÚMERO É MAIOR OU IGUAL AO SGUNDO NÚMERO  
+
+Console.WriteLine("Digite o primeiro número: ");
+			float numero1 = float.Parse (Console.ReadLine());
+			Console.WriteLine("Digite o segundo número: ");
+			float numero2 = float.Parse (Console.ReadLine());
+			
+			if (numero1 >= numero2) {
+				Console.WriteLine("O primeiro número é maior ou igual");
+			} else {
+				Console.WriteLine("O primeiro número não é maior ou igual");
+			}
